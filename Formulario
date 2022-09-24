@@ -1,0 +1,75 @@
+
+
+<html>
+<body>
+    <Head><link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+<h style="color: red"> Formulario </h>    
+<form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+    <label for="s1">Nome:</label>
+        <input type="text" id="s1" />
+            </div>
+            <div>
+    <label for="s2">E-mail:</label>
+        <input type="email" id="s2" />
+            </div>
+    
+            </div>
+    <label for="s3">CPF:</label>
+        <input type="text" id="s3" />
+            <div>
+    <label for="s4">nome do pai</label>    
+        <input type="text" id="s4" />   
+            </div>
+            <div>
+    <label for="s5">nome da mãe:</label>
+        <input type="text" id="s5" />
+            </div>
+            <div>
+    <label for="s6">idade:</label>
+        <input type="text" id="s6" />
+            </div>    
+            
+            <div>
+    <label for="s8">peso:</label>
+        <input type="text" id="s8" />
+            </div>
+            <div>
+    <label for="s9">altura:</label>
+        <input type="text" id="s9" />
+            </div>
+            <div>
+    <label for="s10">solteiro(a) ou casado(a):</label>
+        <input type="text" id="s10" />
+            </div>
+            <div>
+    <label for="s11">rua:</label>
+        <input type="text" id="s11" />
+            </div>
+        <div>
+    <label for="s12">bairro:</label>
+        <input type="text" id="s12" />
+            </div>
+            <div>
+    <label for="s13">cidade:</label>
+        <input type="text" id="s13" />
+            </div>
+            <div>
+                <label for="s14">numero da casa:</label>
+                <input type="text" id="s14"/>
+            </div>
+            <div>
+                <label for="s15">tipo saguineo:</label>
+                <input typr="text" id="s15"/>
+                </div>
+            <div>
+    <h> se possui algum tipo de alergia ou doença descreva qual(opcional): </h>
+   <textarea id="s7"></textarea>
+            </div>
+            
+    <button>Enviar formulario</button>
+</form>
+</body>
+</html>
+
